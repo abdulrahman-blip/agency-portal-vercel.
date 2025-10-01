@@ -1,6 +1,6 @@
 
-import TabBar from "@/components/TabBar";
-import { supabase } from "@/lib/supabase";
+import TabBar from "./TabBar";
+import { supabase } from "./supabase";
 
 async function getCounts(){
   const [a,b,c] = await Promise.all([
